@@ -102,3 +102,6 @@ table {
   background-repeat: no-repeat;
   background-size: cover;
 }
+img {
+  opacity: 75%;
+}
