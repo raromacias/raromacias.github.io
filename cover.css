@@ -89,10 +89,16 @@ table {
   flex-grow: 1;
 }
 .top-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5), url(
-     'https://raromacias.github.io/images/IMG_4271.jpg'
+     /images/IMG_4271.jpg
     )
   );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
