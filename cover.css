@@ -171,8 +171,28 @@ section {
         font-size: 4.5rem;}}
 
 .heading-sec_mb-bg {
-  margin-bottom: 11rem;
+  margin-bottom: 11rem;}
+  @media only screen and (max-width: 56.25em){
+    .heading-sec_mb-bg {
+      margin-bottom: 8rem;}}
+
+.heading-sec_mb-med {
+  margin-bottom: 9rem;}
+  @media only screen and (max-width:56.25em){
+    .heading-sec_mb-med{
+      margin-bottom: 8rem;}}
+
+.heading-sec__main {
+  display: block;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  position: relative;
 }
+
+
 
 .heading-sm {
   font-size: 2.2rem;
