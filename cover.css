@@ -161,13 +161,17 @@ section {
 }
 
 .heading-primary {
-    margin: 0px 0px 30px 4px;
-    color: #081e5c;
-    font-weight: 400;
-    line-height: 1.1;
-    display: block;
-    margin-inline-start: 4px;
-    margin-inline-end: 0px;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #081e5c;}
+    @media only screen and (max-width: 37.5em){
+      .heading-primary{
+        font-size: 4.5rem;}}
+
+.heading-sec_mb-bg {
+  margin-bottom: 11rem;
 }
 
 .heading-sm {
@@ -303,7 +307,7 @@ section.resume-section {
   flex-shrink: 0;
   padding-top: 5rem!important;
   padding-bottom: 5rem!important;
-  max-width: 100%;
+  max-width: 110rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -346,6 +350,56 @@ section.resume-section {
   margin: auto;
   width: 92%;
 }
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.contact__form-container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 4rem;
+  margin-top: 6rem;
+  max-width: 80rem;
+  text-align: right;
+  width: 95%;
+  border-radius: 5px;
+  margin: 5rem auto 0 auto; }
+  @media only screen and (max-width:37.5em){
+    .contact__form-container{
+      padding: 3rem;}}
+  .contact__form-field {
+    margin-bottom: 4rem;}
+    @media only screen and (max-width: 37.5em){
+      .contact__form-field{
+        margin-bottom: 3rem;}}
+  .contact__form-input {
+    color: #333;
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1.6rem;
+    letter-spacing: 0px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+
+
+.contact-row h1 {
+  color: #4469D2;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
 
 .main-footer {
   background: #000;}

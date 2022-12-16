@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <link rel="stylesheet" href="cover.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="cover.css">
   <script src="https://kit.fontawesome.com/99db9a2e2b.js" crossorigin="anonymous"></script>
   <title>Raro Portfolio Site</title>
 </head>
@@ -42,40 +42,42 @@
     </nav>
   </header>
   <main>
-  <section class="top-row">
-   
-    <div class="home-hero_content">
-      <h1 class="heading-primary">Hi, my name is</h1>
-    </div>
-    <div class="slower">
-      <h2 class="bigger-heading">Raro Macias</h2>
-    </div>
-    <div>
-      <h1 class="heading-primary">I am a Software Developer</h1>
-    </div>
-    <a href="#about" class="btn-scroll scrollto" title="Scroll Down"></a>
-  </section>
-  <section id="about" class="about">
-    <h1 class="about-text" id="about-title">About me</h1>
-    <div class="textcontainer">
-      <div class="styledtext">
-      <p>A Software Developer with a background in manufacturing. Always willing to learn new processes and loves asking the right questions. My interests include theatre, poetry, and basketball. </p>
+    <section class="top-row">
+
+      <div class="home-hero_content">
+        <h1 class="heading-primary">Hi, my name is</h1>
+      </div>
+      <div class="slower">
+        <h2 class="bigger-heading">Raro Macias</h2>
       </div>
       <div>
-        <div class="imgcontainer"> 
-          <div style="max-width: 500px; display:block">
-          <img role="presentation" aria-hidden="true" src="https://res.cloudinary.com/dz7njgq35/image/upload/v1670788891/IMG_4271_1_aioi38.jpg"  class="img-fluid"
-            alt="background picture" style="max-width:100%; display:block; position:static "> 
-        </div> 
+        <h1 class="heading-primary">I am a Software Developer</h1>
       </div>
-      </div>
+      <a href="#about" class="btn-scroll scrollto" title="Scroll Down"></a>
+    </section>
+    <section id="about" class="about">
+      <h1 class="about-text" id="about-title">About me</h1>
+      <div class="textcontainer">
+        <div class="styledtext">
+          <p>A Software Developer with a background in manufacturing. Always willing to learn new processes and loves
+            asking the right questions. My interests include theatre, poetry, and basketball. </p>
+        </div>
+        <div>
+          <div class="imgcontainer">
+            <div style="max-width: 500px; display:block">
+              <img role="presentation" aria-hidden="true"
+                src="https://res.cloudinary.com/dz7njgq35/image/upload/v1670788891/IMG_4271_1_aioi38.jpg"
+                class="img-fluid" alt="background picture" style="max-width:100%; display:block; position:static ">
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <hr noshade size="5">
-      <section class="resume-section p-3 d-flex align-items-center">
-        <div class="w-100">
-          <h2 class="skillsheader" id="technologies-h2">Skills</h2>
-         </div>
+    <section class="resume-section p-3 d-flex align-items-center">
+      <div class="w-100">
+        <h2 class="skillsheader" id="technologies-h2">Skills</h2>
+      </div>
       <ul class="list-inline dev-icons">
         <li class="list-inline-item">
           <i class="fab fa-js-square">
@@ -144,19 +146,64 @@
         </li>
 
       </ul>
-  </section>
-  <section class="projects" id="portfolio">
-    <div class="w-100">
-      <h2 class="mb-5">Projects</h2>
-    </div>
-    <span>
-      <video class="img-fluid img-resume" controls>
-        <source src="https://res.cloudinary.com/dz7njgq35/video/upload/v1670970366/Screen_Recording_2022-11-30_at_6.29.29_PM_uoc4up.mov">
-      </video>
-    </span>
+    </section>
+    <section class="projects" id="portfolio">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+      </div>
+      <span>
+        <video class="img-fluid img-resume" controls>
+          <source
+            src="https://res.cloudinary.com/dz7njgq35/video/upload/v1670970366/Screen_Recording_2022-11-30_at_6.29.29_PM_uoc4up.mov">
+        </video>
+      </span>
 
-  </section>
-</main>
+    </section>
+    <section id="contact">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec_mb-med">
+          <span class="heading-sec_main heading-sec_main--lt">Contact me</span>
+          <span class="heading-sec_sub heading-sec_sub--lt">If you have any questions fill out the form and send me a message. I'll try to reach out to you as soon
+            as possible
+          </span>
+        </h2>
+        <div class="contact__form-container">
+        <form target="_blank" action="https://formsubmit.co/9f29dc05de9ff1cd9b9d8c56df7c7eb7" method="POST">
+          <div class="contact__form-field">
+            <input 
+            type="name" 
+            name="name" 
+            placeholder="Full Name" 
+            required
+            class="contact__form-input"
+            >
+          </div>
+          <div class="contact__form-field">
+            <input 
+            type="email" 
+            name="email" 
+            placeholder="Email Address" 
+            required
+            class= 'contact__form-input'
+            >
+          </div>
+          <div class="contact__form-field">
+            <textarea 
+            name="message" 
+            id="message"
+            cols="30" 
+            rows="10"
+            required
+            class="contact__form-input"
+            >
+          </textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    </section>
+  </main>
   <footer class="main-footer">
     <div class="main-container">
       <div class="main-footer_upper">
@@ -168,21 +215,21 @@
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gerardo-macias-2a912131/">
               <i class="devicon-linkedin-plain colored " id="main-footer_icon"></i>
             </a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/raromacias">              
+            <a target="_blank" rel="noreferrer" href="https://github.com/raromacias">
               <i class="devicon-github-original" id="main-footer_icon"></i>
             </a>
           </div>
         </div>
         <div class="main-footer_row main-footer_row-2">
           <h4 class="heading heading-sm text-lt">Raro Macias</h4>
-            <p class="main-footer_short-desc">A Software Developer who loves to find new ways to build web pages.</p>
+          <p class="main-footer_short-desc">A Software Developer who loves to find new ways to build web pages.</p>
         </div>
       </div>
-      
-    </div>
-      </footer>
 
- 
+    </div>
+  </footer>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
