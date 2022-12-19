@@ -146,7 +146,7 @@ section {
   min-height: 100vh;
   height:100vh;
   padding: 0px;
-  background-image: url(https://res.cloudinary.com/dz7njgq35/image/upload/v1670788891/IMG_4271_1_aioi38.jpg);
+  /* background-image: url(https://res.cloudinary.com/dz7njgq35/image/upload/v1670788891/IMG_4271_1_aioi38.jpg); */
   width: 98%;
   
 }
@@ -170,13 +170,13 @@ section {
       .heading-primary{
         font-size: 4.5rem;}}
 
-.heading-sec_mb-bg {
+.heading-sec__mb-bg {
   margin-bottom: 11rem;}
   @media only screen and (max-width: 56.25em){
     .heading-sec_mb-bg {
       margin-bottom: 8rem;}}
 
-.heading-sec_mb-med {
+.heading-sec__mb-med {
   margin-bottom: 9rem;}
   @media only screen and (max-width:56.25em){
     .heading-sec_mb-med{
@@ -189,10 +189,42 @@ section {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 3.5rem;
-  position: relative;
-}
+  position: relative;}
+  .heading-sec__main--lt{
+    color: #fff;}
+    .heading-sec__main--lt::after{
+      content: '';
+      background: #fff !important;
+    }
+  .heading-sec__main::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #0062b9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;}
+    @media only screen and (max-width: 37.5em){
+      .heading-sec__main::after{
+        top: calc(100% + 1.2rem);} }
 
 
+.heading-sec__sub {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 80rem;
+  margin: auto;
+  line-height: 1.6;}
+  @media only screen and (max-width: 37.5em){
+    .heading-sec__sub{
+      font-size: 1.8rem;}}
+  .heading-sec__sub--lt {
+    color: #eee
+  }
 
 .heading-sm {
   font-size: 2.2rem;
@@ -410,7 +442,17 @@ section.resume-section {
     border-radius: 5px;
     font-weight: 600;
   }
-
+  .contact__form-input::placeholder {
+    color: #999;
+    font-weight: 600;
+    font-size: 1.6rem;}
+  .contact__btn {
+    width: 30%;
+    padding: 2rem 4rem;
+    font-size: 1.6rem;}
+    @media only screen and (max-width: 37.5em){
+      .contact__btn{
+        width:100%}}
 
 
 .contact-row h1 {
