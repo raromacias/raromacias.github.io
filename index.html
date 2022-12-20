@@ -42,36 +42,40 @@
     </nav>
   </header>
   <main>
-    <section class="top-row">
+    <section class="home-hero">
 
-      <div class="home-hero_content">
+      <div class="home-hero__content">
         <h1 class="heading-primary">Hi, my name is</h1>
       </div>
       <div class="slower">
         <h2 class="bigger-heading">Raro Macias</h2>
       </div>
       <div>
-        <h1 class="heading-primary">I am a Software Developer</h1>
+        <h1 class="home-hero__info">I am a Software Developer</h1>
       </div>
       <a href="#about" class="btn-scroll scrollto" title="Scroll Down"></a>
     </section>
-    <section id="about" class="about">
-      <h1 class="about-text" id="about-title">About me</h1>
-      <div class="textcontainer">
-        <div class="styledtext">
-          <p>A Software Developer with a background in manufacturing. Always willing to learn new processes and loves
-            asking the right questions. My interests include theatre, poetry, and basketball. </p>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <p class=".about__content-details">A Software Developer with a background in manufacturing. Always willing to learn new processes and loves
+             asking the right questions. My interests include theatre, poetry, and basketball. </p>
         </div>
-        <div>
+        
           <div class="imgcontainer">
-            <div style="max-width: 500px; display:block">
+            <div style="width: 100%; display:block">
               <img role="presentation" aria-hidden="true"
                 src="https://res.cloudinary.com/dz7njgq35/image/upload/v1670788891/IMG_4271_1_aioi38.jpg"
                 class="img-fluid" alt="background picture" style="max-width:100%; display:block; position:static ">
             </div>
           </div>
-        </div>
+        
       </div>
+    </div>
     </section>
     <hr noshade size="5">
     <section class="resume-section p-3 d-flex align-items-center">
@@ -147,17 +151,25 @@
 
       </ul>
     </section>
-    <section class="projects" id="portfolio">
-      <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
+    <section class="projects sec-pad" id="portfolio">
+      <div class="main-container" id>
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub"></span>
+        </h2>
       </div>
+      <div class="projects__content">
+        <h3 class="projects__title">NewsFeed App</h3>
+        <p class="projects__desc">
+          Take a quick tour of my Full-Stack App. It's a Newsfeed App which allows you to catch up on today's news and weather as well as save an article to your Favorites page after creating a user profile. 
+        </p>
       <span>
         <video class="img-fluid img-resume" controls>
           <source
             src="https://res.cloudinary.com/dz7njgq35/video/upload/v1670970366/Screen_Recording_2022-11-30_at_6.29.29_PM_uoc4up.mov">
         </video>
       </span>
-
+      </div>
     </section>
     <section id="contact">
       <div class="main-container">
@@ -227,6 +239,7 @@
       </div>
 
     </div>
+    
   </footer>
 
 
