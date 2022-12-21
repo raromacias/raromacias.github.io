@@ -360,12 +360,8 @@ section {
     margin-bottom: 4rem;
   }
 
-@media screen and (max-width:1023px) {
-  .main {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
+
+
 p{
   margin: 0px 0px 15px;
 }
