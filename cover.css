@@ -551,12 +551,12 @@ section.resume-section {
       font-size: 64px;}
       #main-footer_icon--mr-none {
         margin-right: 0;}
-    .main-footer_lower {
+    .main-footer__lower {
       padding: 4rem 0;
       border-top: 1px solid #4469D2;
       color: #eee;
       font-size: 1.2rem;
-      text-align: left;}
+      text-align: center;}
       .main-footer_lower a {
         text-decoration: none;
         font-weight: bold;
